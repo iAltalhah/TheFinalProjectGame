@@ -10,9 +10,7 @@ public class RazanPlayerCube : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +20,6 @@ public class RazanPlayerCube : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y - downSpeed, transform.position.z);
         }
     }
-
     void OnTriggerEnter(Collider other)
     {
         if (other.name == "Player")
