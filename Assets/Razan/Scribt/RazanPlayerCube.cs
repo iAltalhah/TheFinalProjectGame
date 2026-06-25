@@ -24,8 +24,12 @@ public class RazanPlayerCube : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            isFalling = true;
-            Destroy(gameObject, 10);
+            Invoke("StartFalling", 5f);
+            Destroy(gameObject, 15);
         }
+    }
+    void StartFalling()
+    {
+        isFalling = true;
     }
 }
