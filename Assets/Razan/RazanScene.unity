@@ -243,6 +243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51b2fe9c07cf78c42bce85286303af00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RazanCylinder
+  speed: 2
+  distance: 3
 --- !u!23 &39203619
 MeshRenderer:
   m_ObjectHideFlags: 0
