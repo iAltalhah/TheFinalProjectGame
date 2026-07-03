@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class Bounderies : MonoBehaviour
@@ -9,13 +10,30 @@ public class Bounderies : MonoBehaviour
     [SerializeField] private Rigidbody playerRigidbody;
     [SerializeField] private float teleportDelay = 2f;
 
+    [SerializeField] TextMeshProUGUI liveCounterTxt;
+    [SerializeField] int liveCounter = 5;
+
     private bool isTeleporting;
+
+
+    private void Start()
+    {
+        liveCounterTxt.text = liveCounter.ToString();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
         if (isTeleporting) return;
 
+        liveCounter--;
+        liveCounterTxt.text = liveCounter.ToString();
+        if (liveCounter <= 0)
+        {
+            Debug.Log("player died");
+            // load the first scene
+        }
+        
         StartCoroutine(TeleportAfterDelay(other));
     }
 
