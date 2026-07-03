@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d7877be5a6f6244c6b5d60ed8fa3076e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 357960
+  packageName: Black Hole VFX
+  packageVersion: 1.0.0
+  assetPath: Assets/FlexUnit/BlackHole/Materials/Variant2/BlackHoleCore.mat
+  uploadId: 853980

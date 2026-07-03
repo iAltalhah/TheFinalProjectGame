@@ -12,15 +12,24 @@ public class CharacterControllerBase : MonoBehaviour
 {
 
     [Header("Abilities")]
+    int airJumpsLeft = 0;
+    AbilityManager abilityManager;
     [SerializeField] bool doubleJumpAbility = false;
+    [SerializeField] float floatFallSpeed = -2f;
+    bool jumpReleasedThisFrame = false;
+    bool isFloating = false;
+
+    bool inputSprintIsPressed = false;
 
     [Header("Visuals")]
 	[SerializeField] GameObject visuals;
 	[SerializeField] float visualsOffsetThreshold = 0.1f;
 	[SerializeField] float maxVisualsOffset = 0.5f;
 	[SerializeField] float visualsLerpFactor = 20f;
-	
-	[Header("Debug Ground")]
+
+    public event Action OnJumped;
+
+    [Header("Debug Ground")]
 	[SerializeField] bool showDebugVisuals = true;
 	[SerializeField] GameObject debugVisuals;
 	
@@ -136,8 +145,12 @@ public class CharacterControllerBase : MonoBehaviour
 		grounded = false;
 		SetParent(null, false);
 	}
-	
-	void OnValidate() {
+    public void InputSprint(bool sprintIsPressed)
+    {
+        inputSprintIsPressed = sprintIsPressed;
+    }
+
+    void OnValidate() {
 		thisCollider = transform.GetComponent<CapsuleCollider>();
 		thisRigidbody = transform.GetComponent<Rigidbody>();
 		
@@ -162,7 +175,10 @@ public class CharacterControllerBase : MonoBehaviour
 	
 	void Awake() {
 		OnValidate();
-		SetParent(null, false);
+
+        abilityManager = GetComponent<AbilityManager>();
+
+        SetParent(null, false);
 
 		verticalSamplePoints = new Vector3[3];
 		verticalSamplePoints[0] = new Vector3(0f, capsuleCenterLower, 0f);
@@ -215,7 +231,9 @@ public class CharacterControllerBase : MonoBehaviour
 		AddTriangle(groundSampleTrisList, 11, 8, 12);
 		
 		groundSampleTris = groundSampleTrisList.ToArray();
-	}
+
+        abilityManager = GetComponent<AbilityManager>();
+    }
 
 	private void AddTriangle(List<int> tris, int a, int b, int c) {
 		tris.Add(a);
@@ -274,7 +292,8 @@ public class CharacterControllerBase : MonoBehaviour
 	    float dTime = Time.deltaTime;
 	    
 	    inputJump = false;
-	    inputJumpIsPressed = jumpIsPressed;
+        jumpReleasedThisFrame = inputJumpIsPressed && !jumpIsPressed;
+        inputJumpIsPressed = jumpIsPressed;
 	    
 	    // keep track of the last time we pressed jump
 	    lastInputJump += dTime;
@@ -291,7 +310,60 @@ public class CharacterControllerBase : MonoBehaviour
 		    jumpCoolDownTimer -= dTime;
 	    }
     }
-    
+
+    public void CancelFloatBecauseOfRewind()
+    {
+        if (!isFloating)
+            return;
+
+        isFloating = false;
+
+        if (abilityManager != null && abilityManager.HasFloatPowerUp())
+        {
+            abilityManager.ConsumeFloatPowerUp();
+        }
+    }
+
+    private void HandleFloatAbility()
+    {
+        if (abilityManager == null)
+            return;
+
+        if (!abilityManager.HasFloatPowerUp())
+        {
+            isFloating = false;
+            return;
+        }
+
+        // If the player reached the ground while floating,
+        // consume the float ability even if Jump is still held.
+        if (grounded)
+        {
+            if (isFloating)
+            {
+                isFloating = false;
+                abilityManager.ConsumeFloatPowerUp();
+            }
+
+            return;
+        }
+
+        // Only float while falling, not while going up from a jump.
+        if (inputJumpIsPressed && velocity.y < 0f)
+        {
+            isFloating = true;
+            velocity.y = floatFallSpeed;
+        }
+
+        // If the player releases Jump while floating in the air,
+        // consume the float ability.
+        if (isFloating && jumpReleasedThisFrame)
+        {
+            isFloating = false;
+            abilityManager.ConsumeFloatPowerUp();
+        }
+    }
+
     private void SetParent(Transform parentTransform, bool fixedUpdate) {
 
 	    if (parentHelper == null) {
@@ -694,12 +766,21 @@ public class CharacterControllerBase : MonoBehaviour
 			
 		// set grounded
 		grounded = true;
-				
-		// allow double jump
-		canDoubleJump = true;
 
-		// no longer Jumping
-		jumping = false;
+        airJumpsLeft = 0;
+
+        if (doubleJumpAbility)
+        {
+            airJumpsLeft = 1;
+        }
+
+        if (abilityManager != null && abilityManager.HasTripleJumpPowerUp())
+        {
+            airJumpsLeft = 2;
+        }
+
+        // no longer Jumping
+        jumping = false;
 
 		// reset air time
 		airTime = 0f;
@@ -743,11 +824,11 @@ public class CharacterControllerBase : MonoBehaviour
 		Vector3 velocityXZ = velocity;
 		velocityXZ.y = 0;
 
-		// set current max speed to walk speed
-		float currentMaxSpeed = maxRunSpeed;
-		
-		// apply movement input
-		if (touchingGround) {
+        // set current max speed to walk speed
+        float currentMaxSpeed = inputSprintIsPressed ? maxRunSpeed : maxWalkSpeed;
+
+        // apply movement input
+        if (touchingGround) {
 			
 			if (moveVector.sqrMagnitude > 0.01f) {
 				moveVector = InhibitMovementAgainstSlope(moveVector);
@@ -796,9 +877,11 @@ public class CharacterControllerBase : MonoBehaviour
 		}
 
 		// jumping
-		MovementJump(dTime); 
-		
-		if (float.IsNaN(velocity.x) || float.IsNaN(velocity.y) || float.IsNaN(velocity.z)) {
+		MovementJump(dTime);
+
+        HandleFloatAbility();
+
+        if (float.IsNaN(velocity.x) || float.IsNaN(velocity.y) || float.IsNaN(velocity.z)) {
 			Debug.LogError(velocity);
 		}
 		
@@ -825,31 +908,46 @@ public class CharacterControllerBase : MonoBehaviour
 		
 	}
 
-	private void MovementJumpInstant(float dTime) {
-		if (!inputJump) return;
-		
-		if (grounded) {
-			jumpCoolDownTimer = 0.1f;
-			grounded = false;
-			jumping = true;
-			velocity.y = jumpSpeed;
-			characterAudio?.PlayJump();
-			return;
-		}
+    private void MovementJumpInstant(float dTime)
+    {
+        if (!inputJump) return;
 
-		if (canDoubleJump && doubleJumpAbility
-			) {
-			jumpCoolDownTimer = 0.1f;
-			grounded = false;
-			jumping = true;
-			canDoubleJump = false;
-			velocity.y = jumpSpeed * 2;
-			characterAudio?.PlayJump();
-			return;
-		}
-	}
+        if (grounded)
+        {
+            jumpCoolDownTimer = 0.1f;
+            grounded = false;
+            jumping = true;
 
-	private void MovementJumpCurve(float dTime) {
+            velocity.y = jumpSpeed;
+            characterAudio?.PlayJump();
+            OnJumped?.Invoke();
+
+            return;
+        }
+
+        if (airJumpsLeft > 0)
+        {
+            jumpCoolDownTimer = 0.1f;
+            grounded = false;
+            jumping = true;
+
+            airJumpsLeft--;
+
+            velocity.y = jumpSpeed * 1.5f;
+            characterAudio?.PlayJump();
+            OnJumped?.Invoke();
+
+
+            if (airJumpsLeft == 0 && abilityManager != null && abilityManager.HasTripleJumpPowerUp())
+            {
+                abilityManager.ConsumeTripleJumpPowerUp();
+            }
+
+            return;
+        }
+    }
+
+    private void MovementJumpCurve(float dTime) {
 		
 		if (jumping) {
 			if (!inputJumpIsPressed) {
@@ -956,6 +1054,45 @@ public class CharacterControllerBase : MonoBehaviour
 		Quaternion debugRotation = Quaternion.LookRotation(groundNormal, transform.right);
 		debugVisuals.transform.rotation = debugRotation;
 	}
+    public void StopMovement()
+    {
+        moveVector = Vector3.zero;
+        velocity = Vector3.zero;
+        worldVelocity = Vector3.zero;
 
+        inputJumpIsPressed = false;
+        inputJump = false;
+        jumping = false;
+        jumpReleasedThisFrame = false;
+        isFloating = false;
+
+        if (thisRigidbody != null)
+        {
+            thisRigidbody.linearVelocity = Vector3.zero;
+        }
+    }
+
+    public bool IsGrounded()
+    {
+        return grounded;
+    }
+
+    public bool IsSprinting()
+    {
+        return inputSprintIsPressed;
+    }
+
+    public bool HasMoveInput()
+    {
+        return moveVector.sqrMagnitude > 0.01f;
+    }
+
+    public float GetHorizontalSpeed()
+    {
+        Vector3 horizontalVelocity = thisRigidbody.linearVelocity;
+        horizontalVelocity.y = 0f;
+
+        return horizontalVelocity.magnitude;
+    }
 
 }
