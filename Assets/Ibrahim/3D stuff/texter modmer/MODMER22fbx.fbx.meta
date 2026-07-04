@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 624f29a942afe2d4cbfd8ac50d7f0146
+guid: b0d356aee37fc7f4eabdc03f9580937a
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,58 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 1
-    second: {fileID: 2100000, guid: 01e9c0aec9ff4144783fb30f37ead6d2, type: 2}
+      name: FrontColor
+    second: {fileID: 2100000, guid: 3c050860d5ced004e8c976ee45af54e5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 1.001
-    second: {fileID: 2100000, guid: 7f3e8a04781ebe944ac999d3a53bdabe, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: 1ea4ffb9c359e8b44a671cabf7602224, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 1.002
-    second: {fileID: 2100000, guid: 2b75e5574b46cbd4e9fd720ee6ecfa32, type: 2}
+      name: eye_iris_mat
+    second: {fileID: 2100000, guid: fd4f02d56a0005847908270690e3b0d9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 1.003
-    second: {fileID: 2100000, guid: de2554f099733f740b9b4f11a771269c, type: 2}
+      name: eye_orb_mat
+    second: {fileID: 2100000, guid: 73ec35e363e9c904497ce470ab4d809f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 1.004
-    second: {fileID: 2100000, guid: 5b74ba52319f3764eb59f5257ada1cce, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 1.005
-    second: {fileID: 2100000, guid: 15ad82237bce47d4ca71c81fec7d449d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 1.006
-    second: {fileID: 2100000, guid: 6d74234c743b10a45b131f1d37b9a3a4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 1.007
-    second: {fileID: 2100000, guid: 4db16ed10a4aa464fae609ebfba7065a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Flesh.002
-    second: {fileID: 2100000, guid: f65eedee40b06c542be2df52dbe7addc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: 4284f6048cebd6c4fbdfcd2e7c2421f1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eye.002
-    second: {fileID: 2100000, guid: 5b2b26b3cc482644c903474c12940724, type: 2}
+      name: eye_pupil_mat
+    second: {fileID: 2100000, guid: 7b1db34a7ac04994192caba013f0316a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
