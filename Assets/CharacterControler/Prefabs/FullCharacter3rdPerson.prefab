@@ -257,6 +257,10 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0.13836467
       objectReference: {fileID: 0}
+    - target: {fileID: 7542116082009741982, guid: b3948edc8ffd650419e4504d6d830ec7, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 53
+      objectReference: {fileID: 0}
     - target: {fileID: 7765096633077001784, guid: b3948edc8ffd650419e4504d6d830ec7, type: 3}
       propertyPath: m_Name
       value: Camera3rdPerson
@@ -325,6 +329,14 @@ PrefabInstance:
     - target: {fileID: 3313985376056640330, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: m_Interpolate
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645709072101050406, guid: 6b6d04526af64164da083211c70632b0, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998573304487499928, guid: 6b6d04526af64164da083211c70632b0, type: 3}
+      propertyPath: m_Volume
+      value: 0.302
       objectReference: {fileID: 0}
     - target: {fileID: 8400678781422481979, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: m_LocalPosition.x
