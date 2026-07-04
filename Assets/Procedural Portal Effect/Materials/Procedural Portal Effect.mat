@@ -58,8 +58,8 @@ Material:
     - _SwirlStrength: 2.5
     m_Colors:
     - _HoleColor: {r: 0.09433961, g: 0.013943268, b: 0.013943268, a: 1}
-    - _InnerColorA: {r: 0.47798735, g: 0.47290704, b: 0.12475768, a: 1}
-    - _InnerColorB: {r: 0.54901963, g: 0.4431373, b: 0.32941177, a: 1}
+    - _InnerColorA: {r: 0, g: 0, b: 0, a: 1}
+    - _InnerColorB: {r: 0.74851936, g: 0.46907264, b: 0.7830189, a: 1}
     - _InnerFrameColor: {r: 0.11718277, g: 0.49685526, b: 0.49685526, a: 1}
     - _OuterColor: {r: 0.91194606, g: 1, b: 0.27058828, a: 1}
     - _OuterGlowColor: {r: 0.44755408, g: 0.45911938, b: 0.1718088, a: 1}

@@ -113,6 +113,7 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 1
     - _DstBlend2: 10
+    - _DstBlendAlpha: 1
     - _EC: 1.58
     - _EdgeContrast: 1.44
     - _EdgeContrast_1: 2
@@ -133,7 +134,8 @@ Material:
     - _RingStgrength: 3
     - _Scale: 4
     - _Speed: 0.15
-    - _SrcBlend: 1
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
     - _StencilRef: 0
     - _StencilRefDepth: 1
     - _StencilRefDistortionVec: 4
