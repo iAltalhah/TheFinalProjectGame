@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Procedural Portal Effect
+  m_Name: Procedural Portal Effect 2
   m_Shader: {fileID: 4800000, guid: fa57c1e73cab6ec48bb9c58105543f7b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -59,7 +59,7 @@ Material:
     m_Colors:
     - _HoleColor: {r: 0.09433961, g: 0.013943268, b: 0.013943268, a: 1}
     - _InnerColorA: {r: 0, g: 0, b: 0, a: 1}
-    - _InnerColorB: {r: 0.5943396, g: 0.33361515, b: 0.58790135, a: 1}
+    - _InnerColorB: {r: 0.251157, g: 0.34728333, b: 0.6415094, a: 1}
     - _InnerFrameColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
     - _OuterColor: {r: 0, g: 0, b: 0, a: 1}
     - _OuterGlowColor: {r: 0, g: 0, b: 0, a: 1}

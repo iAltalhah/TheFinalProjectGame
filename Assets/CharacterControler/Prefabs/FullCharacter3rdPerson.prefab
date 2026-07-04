@@ -48,7 +48,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2283969938262306474}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -247,15 +247,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7542116082009741982, guid: b3948edc8ffd650419e4504d6d830ec7, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.13836467
+      value: 0.11320752
       objectReference: {fileID: 0}
     - target: {fileID: 7542116082009741982, guid: b3948edc8ffd650419e4504d6d830ec7, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.13836467
+      value: 0.11320752
       objectReference: {fileID: 0}
     - target: {fileID: 7542116082009741982, guid: b3948edc8ffd650419e4504d6d830ec7, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.13836467
+      value: 0.11320752
       objectReference: {fileID: 0}
     - target: {fileID: 7542116082009741982, guid: b3948edc8ffd650419e4504d6d830ec7, type: 3}
       propertyPath: m_CullingMask.m_Bits
@@ -295,16 +295,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 3169800464192125137}
     m_Modifications:
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
+      propertyPath: airAcc
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
+      propertyPath: groundAcc
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: jumpSpeed
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: maxRunSpeed
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: maxWalkSpeed
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: useJumpCurve
@@ -321,7 +329,7 @@ PrefabInstance:
     - target: {fileID: 3050899096278669573, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: rewind
       value: 
-      objectReference: {fileID: 5881232574567233782}
+      objectReference: {fileID: 8339143220839508361}
     - target: {fileID: 3050899096278669573, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: cameraFollow
       value: 
@@ -404,6 +412,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8703085213949573864, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1770881171543341671}
+    - targetCorrespondingSourceObject: {fileID: 8703085213949573864, guid: 6b6d04526af64164da083211c70632b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8339143220839508361}
   m_SourcePrefab: {fileID: 100100000, guid: 6b6d04526af64164da083211c70632b0, type: 3}
 --- !u!114 &1732859756343674080 stripped
 MonoBehaviour:
@@ -474,6 +485,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnims
   animator: {fileID: 1130859132443116671}
   characterController: {fileID: 1732859756343674080}
+--- !u!114 &8339143220839508361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934630004779030033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f373df72bc4253f4282848beee19a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rewind
+  rewindAnchor: {fileID: 0}
+  rewindDuration: 0.5
 --- !u!1001 &6731625884321134963
 PrefabInstance:
   m_ObjectHideFlags: 0

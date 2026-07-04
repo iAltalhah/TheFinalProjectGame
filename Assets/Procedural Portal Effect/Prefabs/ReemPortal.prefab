@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1000609638341637317}
   - component: {fileID: 8863490829336004629}
   m_Layer: 0
-  m_Name: Procedural Portal Effect
+  m_Name: ReemPortal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

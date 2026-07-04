@@ -6,7 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ibrahim/IbrahimScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Ibrahim/StartScene.unity
+    guid: 67ae2ea12ed7c3b49a7cb816340fa66d
+  - enabled: 1
+    path: Assets/Ibrahim/SceneLevel1.unity
+    guid: 491d1d87bc6bd0647a9bae054bc3931d
+  - enabled: 1
+    path: Assets/Ibrahim/SceneLevel1T.unity
+    guid: 8825a8f215f7ad74082b3960d29fb2b6
+  - enabled: 1
+    path: Assets/Ibrahim/SceneLevel2.unity
+    guid: a07d0a6d7358cd04c8a53999463bc7f6
+  - enabled: 1
+    path: Assets/Ibrahim/SceneLevel2T.unity
+    guid: 140d998ce13c0914ca4f9838d863527b
+  - enabled: 1
+    path: Assets/Ibrahim/SceneLevel3.unity
+    guid: 6b15d221764a0f449bdfcfbdc1c1e301
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
