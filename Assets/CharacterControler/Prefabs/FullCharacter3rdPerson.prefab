@@ -300,11 +300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: maxRunSpeed
-      value: 16
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: maxWalkSpeed
-      value: 7
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1069249577682921497, guid: 6b6d04526af64164da083211c70632b0, type: 3}
       propertyPath: useJumpCurve
