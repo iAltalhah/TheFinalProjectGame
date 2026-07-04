@@ -486,7 +486,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -2164,7 +2165,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -4983,7 +4985,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -11049,7 +11052,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -11227,7 +11231,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -19312,7 +19317,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -25728,7 +25734,8 @@ PrefabInstance:
       propertyPath: collectionManager
       value: 
       objectReference: {fileID: 655509118}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3315340383776732087, guid: 0c6ad5ad4b3e4e645b4ebcf8c3c05a66, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
