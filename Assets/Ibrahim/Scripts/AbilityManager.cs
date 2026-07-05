@@ -3,21 +3,22 @@ using UnityEngine;
 public class AbilityManager : MonoBehaviour
 {
     [SerializeField] AbilityRewind rewind;
+    [SerializeField] AbilityUI abilityUI;
 
     bool hasRewindAbility = false;
     RewindSource currentRewindSource;
 
     [SerializeField] bool hasTripleJumpPowerUp = false;
     [SerializeField] bool hasFloatPowerUp = false;
-
     TripleJumpSource currentTripleJumpSource;
 
     void Awake()
     {
         if (rewind == null)
         {
-            rewind = GetComponent<AbilityRewind >();
+            rewind = GetComponent<AbilityRewind>();
         }
+
     }
 
 
@@ -38,6 +39,8 @@ public class AbilityManager : MonoBehaviour
         hasFloatPowerUp = true;
         currentFloatSource = source;
 
+        abilityUI?.SetFloatImage(true);
+
         Debug.Log("Player gained float power-up.");
         return true;
     }
@@ -57,6 +60,7 @@ public class AbilityManager : MonoBehaviour
         }
 
         currentFloatSource = null;
+        abilityUI?.SetFloatImage(false);
 
         Debug.Log("Float power-up consumed.");
     }
@@ -74,6 +78,8 @@ public class AbilityManager : MonoBehaviour
 
         hasTripleJumpPowerUp = true;
         currentTripleJumpSource = source;
+
+        abilityUI?.SetTripleJumpImage(true);
 
         Debug.Log("Player gained triple jump power-up.");
         return true;
@@ -94,13 +100,13 @@ public class AbilityManager : MonoBehaviour
         }
 
         currentTripleJumpSource = null;
+        abilityUI?.SetTripleJumpImage(false);
 
         Debug.Log("Triple jump power-up consumed.");
     }
 
     public bool GiveRewindAbility(RewindSource source)
     {
-        // If player already has rewind, don't take another one.
         if (hasRewindAbility)
         {
             return false;
@@ -108,6 +114,8 @@ public class AbilityManager : MonoBehaviour
 
         hasRewindAbility = true;
         currentRewindSource = source;
+
+        abilityUI?.SetRewindImage(true);
 
         Debug.Log("Player gained rewind ability.");
         return true;
@@ -145,6 +153,7 @@ public class AbilityManager : MonoBehaviour
         // Consume the ability.
         hasRewindAbility = false;
         currentRewindSource = null;
+        abilityUI?.SetRewindImage(false);
 
         Debug.Log("Rewind ability consumed.");
     }

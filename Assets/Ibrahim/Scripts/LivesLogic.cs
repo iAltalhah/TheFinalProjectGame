@@ -1,10 +1,13 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LivesLogic : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI liveCounterTxt;
     [SerializeField] int liveCounter = 5;
+
+    [SerializeField] string previousScene = "scene name";
 
     private void Start()
     {
@@ -17,8 +20,7 @@ public class LivesLogic : MonoBehaviour
         liveCounterTxt.text = liveCounter.ToString();
         if (liveCounter <= 0)
         {
-            Debug.Log("player died");
-            // load the first scene
+            SceneManager.LoadScene(previousScene);
         }
     }
 }

@@ -13,7 +13,6 @@ public class Bounderies : MonoBehaviour
     [SerializeField] LivesLogic livesLogic;
 
 
-
     private bool isTeleporting;
 
 
@@ -46,7 +45,7 @@ public class Bounderies : MonoBehaviour
         {
             characterInput.enabled = false;
         }
-
+        yield return new WaitForSeconds(0.5f);
         yield return new WaitForSeconds(teleportDelay);
 
         if (safePoint == null)
