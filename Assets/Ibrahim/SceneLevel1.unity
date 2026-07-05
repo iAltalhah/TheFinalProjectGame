@@ -27950,6 +27950,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1637649680943991718, guid: 5e5335e4bd328ac4b9b58251b62c04c5, type: 3}
+      propertyPath: liveCounter
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637649680943991718, guid: 5e5335e4bd328ac4b9b58251b62c04c5, type: 3}
       propertyPath: previousScene
       value: StartScene
       objectReference: {fileID: 0}

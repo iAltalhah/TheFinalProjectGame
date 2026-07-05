@@ -2592,7 +2592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LivesLogic
   liveCounterTxt: {fileID: 611921715}
-  liveCounter: 5
+  liveCounter: 7
   previousScene: SceneLevel1T
 --- !u!4 &221595169
 Transform:
