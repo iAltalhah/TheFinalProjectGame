@@ -8,6 +8,7 @@ public class CollectionManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI collectionTxt;
 
     [SerializeField] BoxCollider lastDoorCollider;
+    [SerializeField] AudioSource keySound;
 
     private void Start()
     {
@@ -17,7 +18,7 @@ public class CollectionManager : MonoBehaviour
     {
         collectionCount++;
         collectionTxt.text = collectionCount.ToString() + "/" + maxCount.ToString();
-
+        keySound.Play();
         if (collectionCount >= maxCount)
         {
             lastDoorCollider.enabled = true;
