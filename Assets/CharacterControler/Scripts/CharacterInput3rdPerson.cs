@@ -16,11 +16,15 @@ public class CharacterInput3rdPerson : MonoBehaviour
     private InputCharacter inputCharacter;
     private InputAction mouseDelta;
     private InputAction rewindAction;
+    private InputAction sprintAction;
+
     public AbilityRewind rewind;
+    private AbilityManager abilityManager;
 
-    void Awake() {
+    void Awake()
+    {
         inputCharacter = new InputCharacter();
-
+        abilityManager = GetComponent<AbilityManager>();
     }
 
     void OnEnable() {
@@ -38,6 +42,9 @@ public class CharacterInput3rdPerson : MonoBehaviour
         mouseDelta = inputCharacter.Character.MouseDelta;
         mouseDelta.Enable();
 
+        sprintAction = inputCharacter.Character.Sprint;
+        sprintAction.Enable();
+
         rewindAction = inputCharacter.Character.Rewind;
         rewindAction.Enable();
     }
@@ -52,6 +59,9 @@ public class CharacterInput3rdPerson : MonoBehaviour
 
         inputCharacter.Disable();
         rewindAction.Disable();
+
+        sprintAction.Disable();
+
     }
 
     void OnDestroy() {
@@ -64,11 +74,14 @@ public class CharacterInput3rdPerson : MonoBehaviour
         
         inputCharacter.Dispose();
         rewindAction.Dispose();
+
+        sprintAction.Dispose();
     }
 
     void Update() {
         characterController.InputJump(jumpAction.WasPressedThisFrame(), jumpAction.IsPressed());
         characterController.InputMoveVector(GetWorldMoveVector());
+        characterController.InputSprint(sprintAction.IsPressed());
 
         Vector2 lookVector = lookControl.ReadValue<Vector2>();
         lookVector += mouseDelta.ReadValue<Vector2>() * new Vector2(0.2f, 0.5f);
@@ -77,7 +90,7 @@ public class CharacterInput3rdPerson : MonoBehaviour
 
         if (rewindAction.WasPressedThisFrame())
         {
-            rewind.TryRewind();
+            abilityManager.TryUseRewind();
         }
     }
     

@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 1114b2d134bbbd748af9264ec990473c
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0628\u064A\u0636"
+    second: {fileID: 2100000, guid: b7245ee5008b8c044b9b78a3c41adc8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062D\u0645\u0631"
+    second: {fileID: 2100000, guid: 0379eb82ad5c6554ba811f7cbaa7d3e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062E\u0636\u0631"
+    second: {fileID: 2100000, guid: 2d3a285dbdaf9264691f8a1c0edf65aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0633\u0648\u062F"
+    second: {fileID: 2100000, guid: f37a4bee0f99845438e11a0bb275a58d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0635\u0641\u0631"
+    second: {fileID: 2100000, guid: 0e2893ab0f6ac33498da1d4ca260c837, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0628\u064A\u0636_Base_color"
+    second: {fileID: 2800000, guid: 48576b8c57c67f44db8893bdbd7b3b1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0628\u064A\u0636_Base_metalness"
+    second: {fileID: 2800000, guid: ebc39bc7f86a7414a8dc7b2ed941cc0d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0628\u064A\u0636_Normal"
+    second: {fileID: 2800000, guid: 41a7326345482d244b920f0043e9c262, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0628\u064A\u0636_Specular_roughness"
+    second: {fileID: 2800000, guid: ba021ffa3dad0ae4383ddc071bf5e878, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062D\u0645\u0631_Base_color"
+    second: {fileID: 2800000, guid: 150b53543b1339a478a0ec5cecd220b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062D\u0645\u0631_Base_metalness"
+    second: {fileID: 2800000, guid: 0bc1a0832e831bd42972dd3249ffd501, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062D\u0645\u0631_Normal"
+    second: {fileID: 2800000, guid: 7f223a13a270648468c37e26a1a9e6aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062D\u0645\u0631_Specular_roughness"
+    second: {fileID: 2800000, guid: c537d45232570f0499c069e7439d911a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062E\u0636\u0631_Base_color"
+    second: {fileID: 2800000, guid: d06149817381d9a4fbdaeeaf1a1371d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062E\u0636\u0631_Base_metalness"
+    second: {fileID: 2800000, guid: 169282d1e1f62bb46bf48448f9ace0de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062E\u0636\u0631_Normal"
+    second: {fileID: 2800000, guid: 5f046f7a456c5ab43ac5ac83b0b1447e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u062E\u0636\u0631_Specular_roughness"
+    second: {fileID: 2800000, guid: df444dd9e1fdf3841bb98a06e645e739, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0633\u0648\u062F_Base_color"
+    second: {fileID: 2800000, guid: 2faeddbd3d805c04daad41e1efa1653c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0633\u0648\u062F_Base_metalness"
+    second: {fileID: 2800000, guid: 83b8a4517f9e4fc4c9998e4f2b7afd4b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0633\u0648\u062F_Normal"
+    second: {fileID: 2800000, guid: 11827d6f327e24b4c9d6cbadcc42c41a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0633\u0648\u062F_Specular_roughness"
+    second: {fileID: 2800000, guid: ab68472e2c4ff004d8f81d74fcc5fcbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0635\u0641\u0631_Base_color"
+    second: {fileID: 2800000, guid: 0fc321cfba851224fbc1663e72fad769, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0635\u0641\u0631_Base_metalness"
+    second: {fileID: 2800000, guid: 95e932b62c294cb4a963e16447d432ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0635\u0641\u0631_Normal"
+    second: {fileID: 2800000, guid: c88a0e1530e65dc458ec19c1c7583466, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0633\u0644\u0643_\u0627\u0635\u0641\u0631_Specular_roughness"
+    second: {fileID: 2800000, guid: 7594271d82e7032479901f9304dd2663, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
