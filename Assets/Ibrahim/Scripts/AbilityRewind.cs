@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -6,35 +7,45 @@ public class AbilityRewind : MonoBehaviour
     [SerializeField] Transform rewindAnchor;
     [SerializeField] float rewindDuration = 0.5f;
 
-    CharacterInput3rdPerson ci;
-    CapsuleCollider cc;
+    CharacterInput3rdPerson input;
+    CharacterControllerBase characterController;
 
-    public bool canRewind = false;
     bool isRewinding;
 
-    void Start()
+    void Awake()
     {
-        ci = GetComponent<CharacterInput3rdPerson>();
-        cc = GetComponent<CapsuleCollider>();
+        input = GetComponent<CharacterInput3rdPerson>();
+        characterController = GetComponent<CharacterControllerBase>();
     }
 
-    public void TryRewind()
+    public bool StartRewind(Action onFinished = null)
     {
-        if (!isRewinding && canRewind)
-        {
-            StartCoroutine(RewindToAnchor());
-        }
-    }
+        if (isRewinding)
+            return false;
 
-    IEnumerator RewindToAnchor()
-    {
         if (rewindAnchor == null)
-            yield break;
+        {
+            Debug.LogWarning("Rewind anchor is missing.");
+            return false;
+        }
 
+        StartCoroutine(RewindToAnchor(onFinished));
+        return true;
+    }
+
+    IEnumerator RewindToAnchor(Action onFinished)
+    {
         isRewinding = true;
 
-        ci.enabled = false;
-        cc.enabled = false;
+        if (input != null)
+            input.enabled = false;
+
+        if (characterController != null)
+        {
+            characterController.CancelFloatBecauseOfRewind();
+            characterController.StopMovement();
+            characterController.enabled = false;
+        }
 
         Vector3 startPosition = transform.position;
         Vector3 targetPosition = rewindAnchor.position;
@@ -55,14 +66,17 @@ public class AbilityRewind : MonoBehaviour
 
         transform.position = targetPosition;
 
-        ci.enabled = true;
-        cc.enabled = true;
+        if (characterController != null)
+        {
+            characterController.enabled = true;
+            characterController.StopMovement();
+        }
+
+        if (input != null)
+            input.enabled = true;
 
         isRewinding = false;
-    }
 
-    public void CanRewind()
-    {
-        canRewind = true;
+        onFinished?.Invoke();
     }
 }
