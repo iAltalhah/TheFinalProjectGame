@@ -27622,6 +27622,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1129506324772502884, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2053118304517439226, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -27634,9 +27638,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7037216873245169033, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7113309924524448230, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849748753813166902, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27659,6 +27671,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 471606997070295162, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
   m_PrefabInstance: {fileID: 4082005897947453258}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4082005897947453261 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 338449032558277073, guid: 9604250a3dc2bf947997f6a0bfad0db2, type: 3}
+  m_PrefabInstance: {fileID: 4082005897947453258}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0662a4bb9390a694fb771c1254e0a7f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TransPanel
 --- !u!1001 &4401672387809642542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27724,6 +27747,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 184684410}
     - target: {fileID: 4433940389741159806, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
+      propertyPath: panelDeath
+      value: 
+      objectReference: {fileID: 4082005897947453261}
+    - target: {fileID: 4433940389741159806, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
       propertyPath: characterInput
       value: 
       objectReference: {fileID: 7791108569458274513}
@@ -27752,6 +27779,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 184684410}
     - target: {fileID: 7111451677120515215, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
+      propertyPath: panelDeath
+      value: 
+      objectReference: {fileID: 4082005897947453261}
+    - target: {fileID: 7111451677120515215, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
       propertyPath: characterInput
       value: 
       objectReference: {fileID: 7791108569458274513}
@@ -27780,6 +27811,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 184684410}
     - target: {fileID: 7161851839676124183, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
+      propertyPath: panelDeath
+      value: 
+      objectReference: {fileID: 4082005897947453261}
+    - target: {fileID: 7161851839676124183, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
       propertyPath: characterInput
       value: 
       objectReference: {fileID: 7791108569458274513}
@@ -27808,6 +27843,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 184684410}
     - target: {fileID: 7333180030821005704, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
+      propertyPath: panelDeath
+      value: 
+      objectReference: {fileID: 4082005897947453261}
+    - target: {fileID: 7333180030821005704, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
       propertyPath: characterInput
       value: 
       objectReference: {fileID: 7791108569458274513}
@@ -27836,6 +27875,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 184684410}
     - target: {fileID: 7803144098700690925, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
+      propertyPath: panelDeath
+      value: 
+      objectReference: {fileID: 4082005897947453261}
+    - target: {fileID: 7803144098700690925, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
       propertyPath: characterInput
       value: 
       objectReference: {fileID: 7791108569458274513}
@@ -27863,6 +27906,10 @@ PrefabInstance:
       propertyPath: livesLogic
       value: 
       objectReference: {fileID: 184684410}
+    - target: {fileID: 8844778111198798945, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
+      propertyPath: panelDeath
+      value: 
+      objectReference: {fileID: 4082005897947453261}
     - target: {fileID: 8844778111198798945, guid: 0c8dd0fd7285e18439c334e99d623c88, type: 3}
       propertyPath: characterInput
       value: 
