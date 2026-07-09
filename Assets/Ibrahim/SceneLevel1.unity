@@ -783,6 +783,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &20153907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2295,6 +2299,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &145791084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2655,6 +2663,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &164209038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2843,6 +2855,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &184004303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4065,6 +4081,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &279843065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4320,6 +4340,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &284828528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4497,6 +4521,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &285779999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4966,6 +4994,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &327041990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5341,6 +5373,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &352423760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6314,6 +6350,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &439291130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7231,6 +7271,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &521740622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8183,6 +8227,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &624987616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8360,6 +8408,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &627520680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10346,6 +10398,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &794839489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11410,6 +11466,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &897661587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12004,6 +12064,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &942971223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12233,6 +12297,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &958297212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13681,6 +13749,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1051897480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14134,6 +14206,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1077781690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14956,6 +15032,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1147538314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15477,6 +15557,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1196277792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15897,6 +15981,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1209035291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16437,6 +16525,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1245191369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18158,6 +18250,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1368297690
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20430,6 +20526,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1515807583
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21321,6 +21421,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1593519133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21879,6 +21983,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1629667894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22817,6 +22925,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1673226327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23183,6 +23295,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1677526625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26034,6 +26150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1684106537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26347,6 +26467,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1695610630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27125,6 +27249,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1750943038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28383,6 +28511,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1834819031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29759,6 +29891,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &1950334186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30699,6 +30835,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &2021435925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31380,6 +31520,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &2062666804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31625,6 +31769,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &2069238692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31906,6 +32054,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
   fallDelay: 0.2
   returnDelay: 3
+  fallForeverWhenCountdownEnds: 0
+  warningBaseColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionColor: {r: 1, g: 0, b: 0, a: 1}
+  warningEmissionStrength: 3
 --- !u!65 &2085921659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32572,6 +32724,14 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.330178, y: 4.3301845, z: 4.488136}
   m_Center: {x: -22.465973, y: 46.78255, z: -2.881191}
+--- !u!33 &163958499429848864
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867293180601155356}
+  m_Mesh: {fileID: -4545423930167495100, guid: fce9bcdcd0d416e43865441b9ba93bc1, type: 3}
 --- !u!4 &580145218260127353
 Transform:
   m_ObjectHideFlags: 0
@@ -32595,6 +32755,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3955808758772562526}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1193146832747936756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025211495868562600}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.099512346, y: 0.8536358, z: -0.1757826, w: 0.48010805}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 45.9548, y: 45.95479, z: 45.954792}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5431743087054906625}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1475667913842907978
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -32652,6 +32827,25 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2025211495868562600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193146832747936756}
+  - component: {fileID: 7364588651007792082}
+  - component: {fileID: 7955706603114520856}
+  - component: {fileID: 7955706603114520857}
+  m_Layer: 0
+  m_Name: float
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &3407463951786499686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32883,6 +33077,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0662a4bb9390a694fb771c1254e0a7f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TransPanel
+--- !u!1 &4217296171443319021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8104252730056892178}
+  - component: {fileID: 9188001378442864325}
+  - component: {fileID: 4651191181913693201}
+  - component: {fileID: 9188001378442864326}
+  m_Layer: 0
+  m_Name: rewind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &4401672387809642542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33189,6 +33402,55 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 188159d70ace93849aa0573cac4aa5ca, type: 3}
+--- !u!23 &4651191181913693201
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217296171443319021}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 78a1e6323c9756f41825748f66897fff, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &5067992519892253411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33258,6 +33520,55 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e5335e4bd328ac4b9b58251b62c04c5, type: 3}
+--- !u!23 &5194337664015347737
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867293180601155356}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 307bd934a51d53c4d95f182e96a0ff3f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &5365054481307515985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33266,6 +33577,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 332462263130414638, guid: d22d0aa67a663994190f491e9423b068, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3828767348763963487, guid: d22d0aa67a663994190f491e9423b068, type: 3}
       propertyPath: m_LocalPosition.x
       value: -88.07
@@ -33312,9 +33627,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3828767348763963487, guid: d22d0aa67a663994190f491e9423b068, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8104252730056892178}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d22d0aa67a663994190f491e9423b068, type: 3}
+--- !u!4 &5365054481307515986 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3828767348763963487, guid: d22d0aa67a663994190f491e9423b068, type: 3}
+  m_PrefabInstance: {fileID: 5365054481307515985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5431743087054906624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33368,14 +33691,82 @@ PrefabInstance:
       value: FloatSphere
       objectReference: {fileID: 0}
     - target: {fileID: 5418374929778032756, guid: 8adde7a47d3c8ee40a72a7ff56ae0233, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418374929778032756, guid: 8adde7a47d3c8ee40a72a7ff56ae0233, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 32b8f162e70e7fb43959cb2381c5a23b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2520971830914122940, guid: 8adde7a47d3c8ee40a72a7ff56ae0233, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1193146832747936756}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8adde7a47d3c8ee40a72a7ff56ae0233, type: 3}
+--- !u!4 &5431743087054906625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2520971830914122940, guid: 8adde7a47d3c8ee40a72a7ff56ae0233, type: 3}
+  m_PrefabInstance: {fileID: 5431743087054906624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5867293180601155356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6032899905716614764}
+  - component: {fileID: 163958499429848864}
+  - component: {fileID: 5194337664015347737}
+  - component: {fileID: 6032899905716614765}
+  m_Layer: 0
+  m_Name: trijump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6032899905716614764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867293180601155356}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.163, z: 0}
+  m_LocalScale: {x: 240.81992, y: 240.81992, z: 240.81992}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7624946138667349784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6032899905716614765
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867293180601155356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5ca1dfe28ddae444b547fd181c5cd1f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &6043242704320035119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33497,6 +33888,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7364588651007792082
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025211495868562600}
+  m_Mesh: {fileID: 8421744311104621043, guid: fce9bcdcd0d416e43865441b9ba93bc1, type: 3}
 --- !u!1001 &7624946138667349783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33550,14 +33949,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7534357089254880225, guid: 6a112b87dad524d4691b734580197517, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7534357089254880225, guid: 6a112b87dad524d4691b734580197517, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 307bd934a51d53c4d95f182e96a0ff3f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4230464328102351082, guid: 6a112b87dad524d4691b734580197517, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6032899905716614764}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a112b87dad524d4691b734580197517, type: 3}
+--- !u!4 &7624946138667349784 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4230464328102351082, guid: 6a112b87dad524d4691b734580197517, type: 3}
+  m_PrefabInstance: {fileID: 7624946138667349783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7791108569458274500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33685,6 +34096,92 @@ MonoBehaviour:
   rotationLerpSpeed: 1
   rbPosLerpSpeed: 20
   rbRotLerpSpeed: 20
+--- !u!23 &7955706603114520856
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025211495868562600}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 32b8f162e70e7fb43959cb2381c5a23b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &7955706603114520857
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025211495868562600}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac5ca7558d6a919438f434c993bda80a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &8104252730056892178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217296171443319021}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19999695, y: 0.21000099, z: 0.13}
+  m_LocalScale: {x: 240.81992, y: 240.81992, z: 240.81992}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5365054481307515986}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8863490828658563688
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33734,6 +34231,36 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &9188001378442864325
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217296171443319021}
+  m_Mesh: {fileID: 272620219224400015, guid: fce9bcdcd0d416e43865441b9ba93bc1, type: 3}
+--- !u!95 &9188001378442864326
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217296171443319021}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 91a4db858c87c8b4599aaf414a681791, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
