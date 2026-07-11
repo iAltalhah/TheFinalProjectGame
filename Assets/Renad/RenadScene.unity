@@ -780,15 +780,14 @@ MonoBehaviour:
   VolumeSlider: {fileID: 565006282}
   defaultVolume: 1
   comfirmationPromp: {fileID: 1830623011}
-  ControllerSenTextValue: {fileID: 0}
-  ControllerSenSlider: {fileID: 0}
+  ControllerSenTextValue: {fileID: 375473521}
+  ControllerSenSlider: {fileID: 88611160}
   defaultSen: 4
   mainControllerSen: 4
   InvertYToggle: {fileID: 0}
   BrightnessValue: {fileID: 0}
   BrightnessVolume: {fileID: 0}
   defaultBrightness: 1
-  Resolutiondropdown: {fileID: 0}
 --- !u!4 &293123574
 Transform:
   m_ObjectHideFlags: 0
@@ -3809,7 +3808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1223113622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4075,7 +4074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1333231916
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4980,7 +4979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1724131977
 RectTransform:
   m_ObjectHideFlags: 0

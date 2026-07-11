@@ -31,7 +31,7 @@ public class MenuController : MonoBehaviour
     private bool _isFullScreen;
     private float _brightnessLevel;
 
-    public Dropdown Resolutiondropdown;
+    //public Dropdown Resolutiondropdown;
     private Resolution[] resolutions;
     void Start()
     {
@@ -39,7 +39,7 @@ public class MenuController : MonoBehaviour
         ControllerSenSlider.onValueChanged.AddListener(SetControllerSen);
 
         resolutions=Screen.resolutions;
-        Resolutiondropdown.ClearOptions();
+       // Resolutiondropdown.ClearOptions();
 
         List<String> options = new List<string>();
         int currentResolutionIndex=0;
@@ -96,8 +96,7 @@ public class MenuController : MonoBehaviour
             ControllerSenSlider.value=defaultSen;
             mainControllerSen=defaultSen;
             InvertYToggle.isOn=false;
-            GamePlayApply();
-
+            //GamePlayApply();
 
         }
     }
