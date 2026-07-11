@@ -798,7 +798,6 @@ MonoBehaviour:
   BrightnessValue: {fileID: 0}
   BrightnessVolume: {fileID: 0}
   defaultBrightness: 1
-  Resolutiondropdown: {fileID: 0}
 --- !u!4 &293123574
 Transform:
   m_ObjectHideFlags: 0

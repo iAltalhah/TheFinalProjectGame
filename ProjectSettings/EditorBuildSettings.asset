@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ibrahim/MainMenu.unity
-    guid: 94a49099744d3fa4bade7fbdf65b50b2
-  - enabled: 0
-    path: Assets/Ibrahim/MainMenu1111.unity
-    guid: 34f5e834e4a5cc84e8c3be9e39846849
+    path: Assets/Ibrahim/RenadScene.unity
+    guid: b312899d1b54f5640b8bf7bc91cf7d25
   - enabled: 1
     path: Assets/Ibrahim/StartScene.unity
     guid: 67ae2ea12ed7c3b49a7cb816340fa66d
