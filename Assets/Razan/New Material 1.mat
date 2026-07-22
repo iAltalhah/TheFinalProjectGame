@@ -117,9 +117,15 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
+<<<<<<< HEAD
     - _BaseColor: {r: 1, g: 0, b: 0.86260664, a: 1}
     - _Color: {r: 1, g: 0, b: 0.86260664, a: 1}
     - _EmissionColor: {r: 169.25925, g: 0, b: 581.2745, a: 1}
+=======
+    - _BaseColor: {r: 1, g: 0.35500002, b: 0.91147053, a: 1}
+    - _Color: {r: 1, g: 0.35499996, b: 0.91147053, a: 1}
+    - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
+>>>>>>> Ibrahim
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

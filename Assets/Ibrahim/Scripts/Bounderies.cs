@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Bounderies : MonoBehaviour
 {
@@ -8,14 +9,13 @@ public class Bounderies : MonoBehaviour
     [SerializeField] private CharacterControllerBase characterControllerBase;
     [SerializeField] private CharacterInput3rdPerson characterInput;
     [SerializeField] private Rigidbody playerRigidbody;
-    [SerializeField] private float teleportDelay = 2f;
+    private float teleportDelay = 0.5f;
 
     [SerializeField] LivesLogic livesLogic;
 
+    [SerializeField] TransPanel panelDeath;
 
     private bool isTeleporting;
-
-
 
 
     private void OnTriggerEnter(Collider other)
@@ -46,6 +46,7 @@ public class Bounderies : MonoBehaviour
             characterInput.enabled = false;
         }
         yield return new WaitForSeconds(0.5f);
+        panelDeath.TransToBlack();
         yield return new WaitForSeconds(teleportDelay);
 
         if (safePoint == null)
@@ -81,6 +82,8 @@ public class Bounderies : MonoBehaviour
         Debug.Log("Player returned to safe point!");
 
         isTeleporting = false;
+        yield return new WaitForSeconds(0.5f);
+        panelDeath.TransBack();
     }
 
     private void EnablePlayerController()

@@ -31,7 +31,11 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 0, g: 0, b: 0, a: 1}
+<<<<<<< HEAD
     - _EmissionColor: {r: 6.4222336, g: 1.6843212, b: 1.6843212, a: 1}
+=======
+    - _EmissionColor: {r: 0.0625, g: 0.0625, b: 0.0625, a: 1}
+>>>>>>> Ibrahim
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5528755618357417245

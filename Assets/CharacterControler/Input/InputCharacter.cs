@@ -282,8 +282,8 @@ public partial class @InputCharacter: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""40fcc354-3e83-4ace-9812-61a613b0c795"",
-                    ""path"": ""<Gamepad>/leftStickPress"",
+                    ""id"": ""63f46378-bd5b-4635-a2fa-ee6cdb3e44c7"",
+                    ""path"": ""<Keyboard>/leftShift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -293,8 +293,19 @@ public partial class @InputCharacter: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""63f46378-bd5b-4635-a2fa-ee6cdb3e44c7"",
-                    ""path"": ""<Keyboard>/leftShift"",
+                    ""id"": ""0207c36c-231b-475d-9d52-04769b9e1645"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Sprint"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""12f8365a-e8b5-4c5c-8000-812b4fafb69a"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

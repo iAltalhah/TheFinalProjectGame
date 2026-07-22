@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenuPanel;
-    [SerializeField] private string mainMenuSceneName = "MainMenu";
+    [SerializeField] private string mainMenuSceneName = "RenadScene";
 
     [Header("Optional")]
     [SerializeField] private CharacterInput3rdPerson playerInput;
